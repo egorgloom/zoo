@@ -147,7 +147,6 @@ function shuffleArray() {
         animals[i] = animals[j];
         animals[j] = temp;
     }
-    console.log(animals);
     deleteOldAnimals();
     createNewAnimals();
 }
