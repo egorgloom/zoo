@@ -1,4 +1,4 @@
-const subscribe = document.getElementById('subscribe');
+const subscribe = document.getElementById('subscribe_input');
 const subscribeButton = document.getElementById('subscribe-button');
 
 function validateEmail() {
