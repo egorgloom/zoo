@@ -1,0 +1,360 @@
+@media (max-width: 320px) {
+    :root {
+        --color-black: #000;
+        --color-white: #FFFFFF;
+        --color-yellow: #FFEE2E;
+        --color-green: #4B9200;
+        --color-black_blue: #333b41;
+        --color-orange: #F9804B;
+        --color-orange_hover: #E47209;
+        --color-gray: #767474;
+        --color-gray_smoky: #ABABAB;
+        --color-orange-grad: #FED290;
+        --color-light_gray: #F1F3F2;
+        --color-pink_gradient: #FEBDAB;
+        --color-frosted_glass_white: #FDFDFF;
+        --color-rad: #D31414;
+    }
+    body {
+        
+        width: 320px;
+    }
+
+    .header {
+        width: 320px;
+    }
+    
+    .backgraund_panda {
+        background: url('./img/Giant_Panda_320px.svg') no-repeat;
+        height: 261px;
+        width: 320px;
+
+        
+    }
+    .ellipse {
+        height: 119.09px;
+        width: 119.09px;
+        margin-left: 161px;
+        background: url('./img/Ellipse_320px.svg') center center no-repeat;
+        top: 22px;
+    }
+    .text_section1 {
+        font-size: 27.21px;
+        left: 180px;
+        top: 41px;
+ 
+    }
+    .text_panda {
+        font-size: 28px;
+        height: 102.44px;
+        width: 128.13px;  
+    }
+    .btn_panda {
+        position: relative;
+        top: 85px;
+        margin-left: 11px;
+        margin-bottom: 0;
+        margin-top: 0;
+        
+        
+    }
+    .flex_section2 {
+        display: flex;
+        gap: 87px;
+        height: 403px;
+    
+    }
+    .h2_oldman {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 58px;
+        height: 58px;
+        width: 300px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .section2 {
+        margin: 30px 10px 0px 10px;
+        width: 300px;
+    }
+    .h2_oldman {
+        font-size: 24px;
+        line-height: 120%;
+        font-weight: 400;
+        height: 58px;
+        width: 300px;
+        margin-bottom: 10px;
+    }
+    .p1_oldman {
+        font-size: 16px;
+        height: 42px;
+        margin-bottom: 20px;
+        height: 63px;
+        width: 300px;
+
+    }
+    .h3_oldman {
+        font-size: 24px;
+        width: 217px;
+        height: 29px;
+        margin-bottom: 10px;
+    }
+    .p2_oldman {
+        width: 300px;
+        height: 198px;
+        font-size: 16px;
+    }
+    .flowers {
+        background: url('./img/flower_foto1_320px.png') center center no-repeat;
+        height: 217px;
+        width: 31px;
+        display: block;
+        position: absolute;
+        top: 225px;
+    }
+    .block_pets .pets:nth-child(3n) {
+        display: none;
+
+    }
+    .block_pets {
+        row-gap: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 100%;
+        width: 300px;
+
+        
+        
+        
+    }
+    .animals {
+
+    }
+    .section_pets {
+        margin-left: 10px;
+        margin-right: 25px;
+        width: 300px;
+        display: block;
+    }
+
+    .container_animals {
+        /******************/
+       width: 285px;
+
+       
+   }
+   .pets_arrow {
+    display: none;
+   }
+   .btn_choose {
+    position: relative;
+    margin-top: 20px;
+    padding-bottom: 60px;
+    margin-bottom: 0;
+    bottom: 0;
+
+   }
+   .palm {
+    position: absolute;
+    background: url('./img/palm_foto_320px.svg') center center no-repeat;
+    bottom: 0;
+    left: -10px;
+    height: 72px;
+    width: 58px;
+    }
+
+    .strelizia {
+        position: absolute;
+        background: url('./img/strelitzia_320px.svg') no-repeat;
+        width: 68px;
+        height: 71px;
+        bottom: 0;
+        right: -10px;
+
+    }
+    .pick_background {
+        margin: 20px 10px 20px 10px;
+        width: 300px;
+    }
+    .text_pick_and_feed {
+
+        margin: 0px 0px 0px 0px ;
+    }
+    .h2_pick_and_feed {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    .weKnow {
+        color: var(--color-black_blue);
+        font-size: 18px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .during {
+        display: none;
+        
+    }
+    .even {
+        display: none;
+    }
+    .how_it_works {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        color: var(--color-black_blue);
+        font-size: 24px;
+        
+    
+    }
+    .font_how_it_works {
+        font-size: 24px;
+    }
+    .cards_how_it_works {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .text_of_cards {
+        margin-top: 10px;
+        height: 44px;
+    }
+    .arrow_green1 {
+        background: url('./img/arrow_green_640px.svg') center center no-repeat;
+        height: 69.65974946919302px;
+        width: 90.11898584171258px;
+        left: 210px;
+        top: 170px;
+        position: absolute;
+        transform: rotate(83deg);
+    }
+    .arrow_green2 {
+        background: url('./img/arrow_green_640px.svg') center center no-repeat;
+        height: 69.65974946919302px;
+        width: 90.11898584171258px;
+        left: 210px;
+        top: 415px;
+        position: absolute;
+        transform: rotate(83deg);
+    }
+    .button_feed {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .leav_foto {
+        background: url('./img/leav_foto -320px.svg') center center no-repeat;
+        position: absolute;
+        width: 77px ;
+        height: 77px;
+        right: -10px;
+        bottom: -20px;
+    }
+    .btn_testimonials {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        width: 240px;
+        height: 54px;
+    }
+    .h3_testimonials {
+        font-size: 24px;
+        font-weight: 400;
+    }
+    /*************/
+    .logo_footer {
+        border: none;
+        border-radius: none;
+        height: 23px;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    
+    }
+    .first_line {
+        justify-content: center;
+        height: 23px;
+        width: 100%;
+        margin-right: 9px;
+        margin-left: 9px;
+        padding-top: 20px;
+        margin-bottom: 32px;
+
+    }
+    .footer_petstroy {
+       
+        height: 23px;
+        left: calc(50% - 128px/2);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19.0145px;
+        line-height: 120%;
+        text-align: center;
+        
+    }
+    .social_links_div {
+        position: absolute;
+
+        top: 73px;
+        left: 63px;
+    }
+    .ul_social_links_div {
+        width: 194px;
+        height: 26px;
+        display: flex;
+        justify-content: space-between;
+        top: 73px;
+        left: 63px;
+
+    }
+    .ullink {
+        margin-top: 0;
+    }
+    .second_line {
+        margin-right: 9px;
+        margin-left: 9px;
+        margin-bottom: 30px;
+    }
+    .btn_donate {
+        margin-top: 56px;
+    
+    }
+    .designedBy {
+        color: var(--color-white);
+        font-family: 'Roboto';
+        font-weight: 100;
+        font-size: 15px;
+        line-height: 120%;
+        letter-spacing: 0em;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        position: absolute;
+        right: 0;
+
+    }
+    .menu_nav_footer {
+        width: 302px;
+        height: 22px;
+        display: flex;
+        justify-content: space-between;
+
+        margin-top: 79px;
+    
+        
+    }
+    .nav_footer {
+        display: flex;
+
+    }
+    .three_line {
+        margin-left: 9px;
+        margin-right: 9px;
+        padding-bottom: 20px;
+    }
+
+}

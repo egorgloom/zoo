@@ -1,0 +1,333 @@
+@media (max-width: 640px) {
+    :root {
+        --color-black: #000;
+        --color-white: #FFFFFF;
+        --color-yellow: #FFEE2E;
+        --color-green: #4B9200;
+        --color-black_blue: #333b41;
+        --color-orange: #F9804B;
+        --color-orange_hover: #E47209;
+        --color-gray: #767474;
+        --color-gray_smoky: #ABABAB;
+        --color-orange-grad: #FED290;
+        --color-light_gray: #F1F3F2;
+        --color-pink_gradient: #FEBDAB;
+        --color-frosted_glass_white: #FDFDFF;
+        --color-rad: #D31414;
+    }
+    .size_logo_photo {
+        height: 29px;
+        width: 47px;
+    }
+    .size_logo_photo._active {
+        border: 1px solid var(--color-orange_hover);
+        border-radius: 5px;
+        height: 42px;
+        width: 66px;
+        
+    }
+
+    .logo {
+        height: 29px;
+        width: 47px;
+        position: relative;
+        z-index: 5;
+        border: none;
+    }
+    .logo._active {
+
+        position: relative;
+        z-index: 5;
+        border: none;
+        height: 41.599998474121094px;
+        width: 65.5999984741211px;
+        border-radius: 2px;
+        
+
+    }
+    .h1_petstroy {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: var(--color-white);
+        text-align: center;
+        padding: 0;
+    }
+
+    .h1_petstroy._active {
+        color: #FE9013;
+        font-family: 'Roboto';
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        position: relative;
+        z-index: 6;
+        width: 66px;
+        top: 0;
+        left: 10px;
+        color: #FE9013;
+        border: 1px solid #FE9013;
+        
+        padding: 0;
+        
+        
+    }
+
+    .header_container {
+        height: 34px;
+        padding: 0 20px;
+    
+    } 
+    .menu__list {
+    display: block;
+
+    }
+    .menu_link {
+    color: black;
+    font-size: 16px;
+    }
+
+    .menu__icon {
+    z-index: 5;
+    display: block;
+    position: relative;
+    width: 18px;
+    height: 10px;
+    cursor: pointer;
+
+
+    
+    }
+    .menu__icon span,
+    .menu__icon::before,
+    .menu__icon::after {
+    left: 0;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    transition: all 0.3s ease 0s;
+    background-color: white;
+    } 
+    .menu__icon::before,
+    .menu__icon::after {
+    content: "";
+    }
+    .menu__icon::before {
+    top: 0;
+    }
+    .menu__icon::after {
+    bottom: 0;
+    }
+    .menu__icon span {
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+    }
+    .menu__body {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-white);
+    transition: left 0.3s ease 0s;
+    overflow: auto;
+    padding-top: 100px;
+    
+    }
+    .menu__list._active > li {
+    font-size: 16px;
+    padding: 7.5px 10px ;
+    }
+    
+    .menu__icon._active span {
+    transform: scale(0) translate(0px, -50%);
+    }
+    .menu__icon._active::before {
+    top: 50%;
+    transform: rotate(-45deg) translate(0px, -50%);
+    background-color: var(--color-orange_hover);
+    }
+    .menu__icon._active::after {
+    bottom: 50%;
+    transform: rotate(45deg) translate(0px, 50%);
+    background-color: var(--color-orange_hover);
+    }
+
+    .menu__icon._active {
+        margin-right: 20px;
+    }
+    .menu__body._active {
+    padding-top: 50px;
+    left: 0;
+    display: block;
+    padding: 0;
+    z-index: 4;
+    }
+    .menu__list._active {
+    padding-top: 82px;
+    margin-left: 0;
+    }
+
+    .header_container._active {
+        height: 62px;
+        padding: 0;
+    }
+    .header_designed._active {
+    margin: 0;
+    padding: 7.5px 10px ;
+    
+    font-size: 16px;
+    width: 106px;
+    height: 22px;
+    
+    }
+    .designed._active {
+        font-size: 16px;
+        background-color: var(--color-white);
+        color: var(--color-black);
+        font-weight: normal;
+
+    }
+    body {
+        
+        width: 640px;
+    }
+    .header_container {
+        padding: 0 20px;
+    }
+    .panda_bg {
+        background: url('./img/panda_bg_640.svg') center center no-repeat;
+        height: 335px;
+        width: 640px;
+        
+    }
+    .container_donation_info {
+        height: 1333px;
+        width: 640px;
+    }
+    .donation_information {
+        margin: 0px 20px 0px 20px;
+        top: 30px;
+    }
+    .h2_pick_and_feed {
+        padding-bottom: 0px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .h3_need_help {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 24px;
+        height: 58px;
+        line-height: 1;
+    }
+    .text_donate {
+        line-height: 140%;
+        
+    }
+    .h3_donate_info {
+        margin-bottom: 0px;
+    }
+    .background_pick_and_feed {
+        margin: 0px 20px;
+        width: 600px;
+        height: 918px;
+        position: relative;
+        top: 60px;
+        
+    }
+    .block_pick_and_feed { 
+        margin: 0;
+        width: 100%;
+        height: 918px;
+    }
+    .text_pick_and_feed {
+
+        text-align: center;
+    }
+    .amount {
+        margin-left: 10px;
+    }
+    .selector_animals {
+        display: flex;
+        height: 246px;
+        margin: 50px 41px 41px 27px;
+    }
+    .div_input:nth-child(-n+4) {
+        display: none;
+    }
+    .final_text_donate {
+        margin-bottom: 30px;
+    }
+    .donate_line {
+        width: 550px;
+    }
+
+    .container_footer {
+        position: relative;
+
+    }
+    .subscribe {
+        display: none;
+    }
+    .link_name_footer {
+        display: none;
+    }
+    .logo_footer {
+        border: 1px solid var(--color-white);
+        border-radius: 2px;
+        height: 52px;
+        width: 82px;
+        margin-top: 12px;
+        margin-bottom: 32px;
+    
+    }
+    .first_line {
+        height: 64px;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-top: 12px;
+        margin-bottom: 32px;
+
+    }
+    .second_line {
+        
+        margin-left: 20px;
+        margin-bottom: 97px;
+    }
+    .three_line {
+        display: flex;
+        margin-right: 20px;
+        margin-left: 20px;
+        padding-bottom: 12px;
+    }
+    .social_links_div {
+        width: 26px;
+        position: absolute;
+        left: 594px;
+        top: 12px;
+    }
+    .petStory {
+        margin: 0;
+        
+
+    }
+    .menu_nav_footer {
+        width: 298px;
+        height: 22px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 30px;
+    
+        
+    }
+    .designedBy{
+        margin-left: 53px;
+        margin-right: 20px;
+        margin-top: 0px;
+    }
+
+}

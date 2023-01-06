@@ -1,0 +1,275 @@
+@media (max-width: 1000px) {
+    * {
+        margin: 0;
+        padding: 0;
+       }
+    :root {
+        --color-black: #000;
+        --color-white: #FFFFFF;
+        --color-yellow: #FFEE2E;
+        --color-green: #4B9200;
+        --color-black_blue: #333b41;
+        --color-orange: #F9804B;
+        --color-orange_hover: #E47209;
+        --color-gray: #767474;
+        --color-gray_smoky: #ABABAB;
+        --color-orange-grad: #FED290;
+        --color-light_gray: #F1F3F2;
+        --color-pink_gradient: #FEBDAB;
+        --color-frosted_glass_white: #FDFDFF;
+        --color-rad: #D31414;
+    }
+    body {
+        
+        width: 1000px;
+    }
+    .size {
+    }
+    .header {
+    }
+    .header_body {  
+    
+    }
+    .header_container {
+        padding: 0 30px;
+    }
+    .logo {
+    }
+    .header_logo {
+    }
+    .nav {
+    }
+    .menu__list {
+        width: 431px;
+        margin-left: 63px;
+    }
+    .menu_link_about {
+    }
+    .menu_link {
+    }
+    .designed {
+    }
+    .panda_bg {
+        background: url('./img/panda_bg_1000px.svg') center center no-repeat;
+        height: 390px;
+        width: 1000px;
+        
+    }
+    .container_panda {
+    }
+
+    .container_donation_info {
+        height: 1333px;
+        width: 1000px;
+    }
+    .donation_information {
+        margin: 0px 30px 0px 30px;
+        position: relative;
+        top: 40px;
+        bottom: 0px;
+    }
+    .h3_need_help {
+        margin-bottom: 30px;
+        height: 94px;
+        
+    }
+    .text_donate {
+    }
+    .h3_donate_info {
+        margin-bottom: 40px;
+    }
+    .background_pick_and_feed {
+        margin: 0 30px;
+        width: 940px;
+        height: 918px;
+        
+    }
+    .block_pick_and_feed {
+        width: 850px;
+        height: 918px;
+        margin: 0 45px 0 45px;
+    }
+    .header_pick_and_feed {
+    }
+    .h2_pick_and_feed {
+        margin-top: 10px;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+    .text_pick_and_feed {
+    }
+    .selector_animals {
+        height: 246px;
+        margin: 60px 167px 48px 151px;
+    }
+    .abc {
+    }
+    .count_number {
+    }
+    .text_count_number {
+    }
+    .x_icon {
+    }
+    .animals_widjet {
+        width: 284px;
+        height: 246px; 
+    }
+    .amount {
+    }
+    .donate_slider {
+        width: 100%;
+    }
+    .donate_form {
+    }
+    .donate_line {
+        width: 795px;
+    }
+    .div_input {
+    }
+    .slider {
+    }
+    .donate_label {
+    }
+    .block_another_amount {
+    }
+    .another_input {
+    }
+    .select_period_donate {
+    }
+    .input_monthly {
+    }
+    .radio-item {
+    }
+    .input_o {
+    }
+    .input_once {
+    }
+    .position_btn_donate {
+    }
+    .donate_button {
+    }
+    .final_text_donate {
+        margin-bottom: 45px;
+    }
+    .container_footer {
+    }
+    .first_line {
+    }
+    .petStory {
+    }
+    .subscribe {
+    }
+    .subscribe_text {
+    }
+    .subscribe_input {
+    }
+    .subscribe_submit {
+    }
+    .second_line {
+    }
+    .donate {
+    }
+    .btn_donate {
+    }
+    .three_line {
+    }
+    .social_links_div {
+    }
+    .social_link_footer {
+    }
+    .container_link_footer {
+    }
+    .circle_link_footer {
+    }
+    .link_name_footer {
+    }
+    .ullink {
+    }
+    .nav_footer {
+    }
+    .menu_nav_footer {
+    }
+    .menu_link_footer_about {
+    }
+    .menu_link_footer {
+    }
+    .designedBy {
+    }
+    .designed_link {
+    }
+    .designed_by {
+    }
+    .rsschool {
+    }
+
+    .container_footer {
+        /*height: 443px;*/
+        
+    }
+    .first_line {
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .petStory {
+        margin-top: 41px;
+        margin-bottom: 68px;
+    }
+    .subscribe {
+        padding-right: 32px;
+    }
+    .subscribe_text {
+    }
+    .subscribe_input {
+    }
+    .subscribe_submit {
+    }
+    .second_line {
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 44px;
+    }
+    .donate {
+    }
+    .btn_donate {
+    }
+    .three_line {
+        margin-right: 30px;
+        margin-left: 30px;
+        padding-bottom: 50px;
+    }
+    .social_links_div {
+    }
+    .social_link_footer {
+    }
+    .container_link_footer {
+    }
+    .circle_link_footer {
+    }
+    .link_name_footer {
+    }
+    .ullink {
+    }
+    .nav_footer {
+    }
+    .menu_nav_footer {
+        width: 332px;
+        margin-left: 189px;
+        margin-right: 88px;
+        margin-top: 112px;
+    
+    }
+    .menu_link_footer_about {
+    }
+    .menu_link_footer {
+    }
+    .designedBy {
+        margin-right: 30px;
+    }
+    .designed_link {
+    }
+    .designed_by {
+    }
+    .rsschool {
+    }
+
+}
